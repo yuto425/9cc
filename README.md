@@ -12,3 +12,10 @@ Try to build a C compiler based on the following site.
 $ docker build -t compilerbook docker/
 $ docker run --rm -it -v $HOME/9cc:/9cc compilerbook
 ```
+
+## Usage
+
+```
+$ make
+$ make test
+```
